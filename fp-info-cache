@@ -1,4 +1,4 @@
-20388298762014599
+20388298763224036
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -50231,13 +50231,6 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
-DEV-15583
-MODULE_DEV-15583
-
-
-0
-33
-33
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -76810,6 +76803,13 @@ nRF24L01 adapter breakout
 0
 8
 8
+RF_Module_OTHER
+RFM9x_Adafruit
+
+
+0
+14
+14
 RF_Shielding
 Laird_Technologies_97-2002_25.40x25.40mm
 Laird Technologies 97-2002 EZ PEEL Shielding Cabinet One Piece SMD 25.40x25.40mm (https://assets.lairdtech.com/home/brandworld/files/Board%20Level%20Shields%20Catalog%20Download.pdf)
