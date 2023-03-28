@@ -929,6 +929,7 @@
     )
   )
 
+
   (junction (at 107.95 83.82) (diameter 0) (color 0 0 0 0)
     (uuid 10bf8e36-638d-45ef-ac42-40304d973742)
   )
@@ -1008,7 +1009,6 @@
   (no_connect (at 97.79 71.12) (uuid ee40885a-b4f0-489a-ac9b-88e40492928d))
   (no_connect (at 97.79 48.26) (uuid f3bed90f-07e5-40e0-a2e1-5e10267c6046))
   (no_connect (at 97.79 93.98) (uuid f4e869e2-480b-481c-bc5b-7ca6a7e039cc))
-  (no_connect (at 41.91 60.96) (uuid f4e869e2-480b-481c-bc5b-7ca6a7e039cd))
   (no_connect (at 41.91 43.18) (uuid f4e869e2-480b-481c-bc5b-7ca6a7e039ce))
   (no_connect (at 41.91 45.72) (uuid f4e869e2-480b-481c-bc5b-7ca6a7e039cf))
   (no_connect (at 41.91 71.12) (uuid f4e869e2-480b-481c-bc5b-7ca6a7e039d0))
@@ -1501,6 +1501,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid bfb83052-ee93-461d-b411-86f576e01d51)
   )
+  (wire (pts (xy 29.21 60.96) (xy 41.91 60.96))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid c03b92e5-9722-4b49-9277-822102b50141)
+  )
   (wire (pts (xy 69.85 176.53) (xy 69.85 181.61))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid c2e44d1d-98a6-4aae-bcbe-6fcb456cb511)
@@ -1928,6 +1932,22 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid dcc4bc56-f558-418f-9d29-7b9f7c7e2967))
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Male") (at 24.13 60.96 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 1c4dcaec-bb0d-4e4b-938d-418142c896e7)
+    (property "Reference" "JT1" (id 0) (at 24.765 62.199 0))
+    (property "Value" "Conn_01x01_Male" (id 1) (at 24.765 62.1991 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" (id 2) (at 24.13 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 24.13 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9a44abae-c1d5-4a26-941f-52c973762664))
   )
 
   (symbol (lib_id "Device:C_Small") (at 107.95 90.17 0) (unit 1)
@@ -2598,7 +2618,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Male") (at 105.41 81.28 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid bbd6cdc6-f9a9-4877-a26f-754919f9430f)
-    (property "Reference" "JT1" (id 0) (at 104.775 80.041 0))
+    (property "Reference" "JT2" (id 0) (at 104.775 80.041 0))
     (property "Value" "Conn_01x01_Male" (id 1) (at 104.775 80.0409 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2876,8 +2896,11 @@
     (path "/187ad0e8-10f6-4eca-a91f-e95458e707e4"
       (reference "C7") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/bbd6cdc6-f9a9-4877-a26f-754919f9430f"
+    (path "/1c4dcaec-bb0d-4e4b-938d-418142c896e7"
       (reference "JT1") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
+    (path "/bbd6cdc6-f9a9-4877-a26f-754919f9430f"
+      (reference "JT2") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
     )
     (path "/3bf5c161-bb82-4c3f-a7d3-0e5786e299da"
       (reference "R1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
