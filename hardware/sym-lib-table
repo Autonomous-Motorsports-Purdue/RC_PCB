@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RF_Module_OTHER")(type "KiCad")(uri "${KIPRJMOD}/libs/RF_Module_OTHER.kicad_sym")(options "")(descr ""))
+  (lib (name "COM-09032")(type "KiCad")(uri "${KIPRJMOD}/libs/COM-09032/COM-09032.kicad_sym")(options "")(descr ""))
+)
